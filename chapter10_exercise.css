@@ -23,11 +23,15 @@ main {
   position: relative;
 }
 
+p.text {
+  font-family: sans-serif;
+}
+
 .step-box:last-child {
   margin-right: 0;
 }
 
-.box-image1 {
+.box-img1 {
   background-image: url(img/flow01.png);
   height: 150px;
   background-position: bottom;
@@ -56,7 +60,7 @@ main {
   position: relative;
 }
 
-.box-image2 {
+.box-img2 {
   background-image: url(img/flow02.png);
   height: 150px;
   background-position: bottom;
@@ -85,7 +89,7 @@ main {
   position: relative;
 }
 
-.box-image3 {
+.box-img3 {
   background-image: url(img/flow03.png);
   height: 150px;
   background-position: bottom;
@@ -104,6 +108,7 @@ main {
 
 .box-title {
   margin: 15px 0 5px;
+  font-family: sans-serif;
 }
 
 footer {
@@ -132,7 +137,7 @@ footer {
     margin: 0;
   }
 
-  .box-image1 {
+  .box-img1 {
     background-image: url(img/flow01.png);
     height: 150px;
     background-position: bottom;
@@ -157,19 +162,19 @@ footer {
     width: 90%;
   }
 
-  .box-image1 {
+  .box-img1 {
     width: 98%;
     height: 150px;
     margin: 0 auto;
   }
 
-  .box-image2 {
+  .box-img2 {
     width: 98%;
     height: 150px;
     margin: 0 auto;
   }
 
-  .box-image3 {
+  .box-img3 {
     width: 98%;
     height: 150px;
     margin: 0 auto;
